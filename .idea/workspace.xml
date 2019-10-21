@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd4d157c-9da8-4e87-ba1b-c3baf9740bab" name="Default Changelist" comment="" />
+    <list default="true" id="dd4d157c-9da8-4e87-ba1b-c3baf9740bab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FT-Nasled/com/company/Main$Boat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FT-Nasled/com/company/Main$Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FT-Nasled/com/company/Main$ElectricAircraft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FT-Nasled/com/company/Main$ElectricCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FT-Nasled/com/company/Main$ElectricParom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FT-Nasled/com/company/Main$Helicopter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FT-Nasled/com/company/Main$Locomotive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FT-Nasled/com/company/Main$Steamship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FT-Nasled/com/company/Main$TurbojetAircraft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FT-Nasled/com/company/Main$air.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FT-Nasled/com/company/Main$ground.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FT-Nasled/com/company/Main$transport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FT-Nasled/com/company/Main$water.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FT-Nasled/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FT-Nasled/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +32,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SHIIxSEojKtvwwT6osu8jWa7uB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -60,5 +81,18 @@
       <updated>1571214018806</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

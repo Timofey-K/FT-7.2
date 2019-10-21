@@ -1,34 +1,32 @@
 package com.company;
 
-public class Main {
-
-    public interface transport{
+     interface transport{
         void move();
         void fuel();
     }
 
-    public abstract class water implements transport{
+     abstract class water implements transport{
         @Override
         public void move () {System.out.println("Плывёт");}
         @Override
         public abstract void fuel();
     }
 
-    public abstract class air implements transport{
+     abstract class air implements transport{
         @Override
         public void move () {System.out.println("Летит");}
         @Override
         public abstract void fuel();
     }
 
-    public abstract class ground implements transport{
+     abstract class ground implements transport{
         @Override
         public void move () {System.out.println("Едет");}
         @Override
         public abstract void fuel();
     }
 
-    public class Boat extends water{                                     //Катер
+     class Boat extends water{                                     //Катер
         @Override
         public void fuel() {System.out.println("Бензин");}
         private class extra{
@@ -42,17 +40,17 @@ public class Main {
         }
     }
 
-    public class ElectricParom extends water{                            //Электический паром
+     class ElectricParom extends water{                            //Электический паром
         @Override
         public void fuel() {System.out.println("Электричество");}
     }
 
-    public class Steamship extends water{                                //Пароход
+     class Steamship extends water{                                //Пароход
         @Override
         public void fuel() {System.out.println("Уголь");}
     }
 
-    public class TurbojetAircraft extends air {                          //ТРБ самолёт
+     class TurbojetAircraft extends air {                          //ТРБ самолёт
         @Override
         public void fuel() {System.out.println("Керосин");}
 
@@ -65,17 +63,17 @@ public class Main {
         }
     }
 
-    public class ElectricAircraft extends air{                           //Электрический самолёт
+     class ElectricAircraft extends air{                           //Электрический самолёт
         @Override
         public void fuel() {System.out.println("Электричество");}
     }
 
-    public class Helicopter extends air{                                 //Вертолёт
+     class Helicopter extends air{                                 //Вертолёт
         @Override
         public void fuel() {System.out.println("Горючее");}
     }
 
-    public class Car extends ground{                                     //Автомобиль
+     class Car extends ground{                                     //Автомобиль
         @Override
         public void fuel() {System.out.println("Бензин");}
 
@@ -88,17 +86,25 @@ public class Main {
         }
     }
 
-    public class ElectricCar extends ground{                             //Электрический автомобиль
+     class ElectricCar extends ground{                             //Электрический автомобиль
         @Override
         public void fuel() {System.out.println("Электричество");}
     }
 
-    public class Locomotive extends ground{                              //Паровоз
+     class Locomotive extends ground{                              //Паровоз
         @Override
         public void fuel() {System.out.println("Уголь");}
     }
 
-    public static void main(String[] args) {
+public class Main {
 
+    public static void main(String[] args) {
+        Locomotive fa = new Locomotive();
+        fa.fuel();
+        fa.move();
+
+        Helicopter He = new Helicopter();
+        He.fuel();
+        He.move();
     }
 }
